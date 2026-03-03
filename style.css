@@ -1,0 +1,113 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    color: #2f5123;
+}
+
+.btn-primary {
+    background-color: #2e4f21;
+    border-color: #2e4f21;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-color: #2e4f21;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-active-bg: #213918;
+}
+
+.bg-primary {
+    background-color: #a0f1bd !important;
+}
+
+.bg-success {
+    background-color: #d2f8dc !important;
+}
+
+.func-container {
+    width:70vw;
+    padding: 10vh;
+}
+
+.ms-6 {
+  margin-left: 18vw !important;
+}
+
+.mt-6 {
+  margin-top: 20vh !important;
+}
+
+.pb-6 {
+  padding-bottom: 15vh !important;
+}
+
+.btn-white {
+    background-color: white;
+    color: #2f5123;
+    --bs-btn-hover-bg: #a0f1bd;
+}
+
+.tab-on {
+    width: 80%;
+    background-color: #2f5123;
+    color: white;
+    padding: 5%;
+    text-align: left;
+    padding-left: 10%;
+}
+.tab {
+    width: 80%;
+    padding: 5%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.hero-img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.accordion {
+    --bs-accordion-color: #2e4f21;
+    --bs-accordion-bg: #a0f1bd;
+    --bs-accordion-active-bg: #d2f8dc;
+}
+
+footer {
+    background-color: #2e4f21;
+    color: white;
+    display: grid;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media (min-width: 375px) {
+    .func-container {
+    width:100%;
+}
+
+    .service-img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .func-container {
+    width:100%;
+}
+
+    .service-img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .service-img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .service-img {
+        width: 90%;
+    }
+}
